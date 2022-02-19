@@ -4211,12 +4211,6 @@
                 }));
             }
         }), 0);
-        function fixedMenu() {
-            const nav = document.querySelector("header");
-            const breakpoint = 1;
-            if (window.scrollY > breakpoint) nav.classList.add("fixed__menu"); else nav.classList.remove("fixed__menu");
-        }
-        window.addEventListener("scroll", fixedMenu);
         var aos = __webpack_require__(711);
         aos.init();
         aos.init({

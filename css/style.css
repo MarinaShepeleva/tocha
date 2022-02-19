@@ -327,7 +327,6 @@ body::after {
 }
 
 .header {
-  height: 6.875em;
   padding: 2.125em 0;
 }
 .header__body {
@@ -501,6 +500,9 @@ body::after {
   .footer__menu-wrap {
     flex-direction: column;
   }
+}
+.footer__item-chat:hover {
+  text-decoration: underline;
 }
 .footer__bottom {
   padding: 1.5625rem 0;
