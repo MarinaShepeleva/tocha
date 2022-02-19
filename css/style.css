@@ -327,6 +327,7 @@ body::after {
 }
 
 .header {
+  min-height: 6.875rem;
   padding: 2.125em 0;
 }
 .header__body {
@@ -512,7 +513,7 @@ body::after {
 
 .top-page {
   position: relative;
-  padding: 3.6875em 0;
+  padding: 10.625rem 0 3.6875rem 0;
   background: rgba(242, 247, 255, 0.5);
   backdrop-filter: blur(100px);
   display: flex;
