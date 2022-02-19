@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css?_v=20220219214710" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20220219214710">
+	<title>Главная</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="/index.html"><picture><source srcset="img/logo_header.webp" type="image/webp"><img class="header__logo-image" src="img/logo_header.png" alt="logo"></picture></a>
+					</div>
+					<div class="header__menu menu menu-hidden">
+						<button type="button" class="menu__icon icon-menu"><img src="img/burger.svg" alt="burger"></button>
+						<button type="button" class="menu__icon-close icon-menu"><img src="img/popup_close.svg" alt="popup_close"></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Подключение</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Выход</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><img src="img/burger.svg" alt="burger"></button>
+						<button type="button" class="menu__icon-close icon-menu"><img src="img/popup_close.svg" alt="popup_close"></button>
+						<div class="menu__body">
+							<div class="header__btn">
+								<a class="header__btn-log button" href="#" data-popup="#popupLogin">Вход</a>
+								<a class="header__btn-reg button" href="#" data-popup="#popupReg">Регистрация</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__top top-page">
+				<div class="top-page__container">
+					<div class="top-page__content">
+						<div class="top-page__title" data-aos="fade-right" data-aos-delay="200">
+							<h1>
+								<span>Telegram чат
+								</span> <br>
+								на вашем сайте
+							</h1>
+						</div>
+						<div class="top-page__text" data-aos="fade-right" data-aos-delay="500">
+							<p>Общение с клиентами станет простым
+								и удобным, а подключение займет 5 минут.
+								Первый месяц — <span>бесплатно!</span></p>
+						</div>
+						<div class="top-page__btn" data-aos="fade-right" data-aos-delay="1000">
+							<button class="button" type="button">Подключить</button>
+						</div>
+					</div>
+					<div class="top-page__image" data-aos="zoom-in-left" data-aos-delay="1000">
+						<img src="img/main_img.svg" alt="картинка">
+					</div>
+				</div>
+			</section>
+			<section class="page__online online-page">
+				<div class="online-page__container">
+					<div class="online-page__content">
+						<div class="page__title online-page__title" data-aos="fade-right" data-aos-delay="200">
+							<h2>Tocha Online — это</h2>
+						</div>
+						<ul class="online-page__list">
+							<li class="online-page__item item-online" data-aos="fade-right" data-aos-delay="500">
+								<div class="item-online__icon">
+									<svg class="icon">
+										<use xlink:href="img/icons/icons.svg#svg-tocha_onlibe_1"></use>
+									</svg>
+								</div>
+								<div class="item-online__content">
+									<h3 class="item-online__title">Ничего лишнего</h3>
+									<p class="item-online__text">Отсутствие лишних приложений для операторов. Оператору
+										не нужно учиться работать
+										с
+										чатом
+									</p>
+								</div>
+							</li>
+							<li class="online-page__item" data-aos="fade-right" data-aos-delay="700">
+								<div class="item-online__icon">
+									<svg class="icon">
+										<use xlink:href="img/icons/icons.svg#svg-tocha_onlibe_2"></use>
+									</svg>
+								</div>
+								<div class="item-online__content">
+									<h3 class="item-online__title">Простота</h3>
+									<p class="item-online__text">Простая установка на сайт</p>
+								</div>
+							</li>
+							<li class="online-page__item" data-aos="fade-right" data-aos-delay="900">
+								<div class="item-online__icon">
+									<svg class="icon">
+										<use xlink:href="img/icons/icons.svg#svg-tocha_onlibe_3"></use>
+									</svg>
+								</div>
+								<div class="item-online__content">
+									<h3 class="item-online__title">Несколько ассистентов</h3>
+									<p class="item-online__text">Возможность подключения нескольких ассистентов</p>
+								</div>
+							</li>
+							<li class="online-page__item" data-aos="fade-right" data-aos-delay="1100">
+								<div class="item-online__icon">
+									<svg class="icon">
+										<use xlink:href="img/icons/icons.svg#svg-tocha_onlibe_4"></use>
+									</svg>
+								</div>
+								<div class="item-online__content">
+									<h3 class="item-online__title">Кастомизация</h3>
+									<p class="item-online__text">Настройка интерфейса под нужды сайта</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="online-page__iphone" data-aos="fade-up-right">
+						<picture><source srcset="img/iPhone.webp" type="image/webp"><img src="img/iPhone.jpg" alt="image"></picture>
+						<div class="online-page__chat chat">
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="100">
+								Здравствуйте! а расскажите о работе Tocha Online.
+								<span class="chat__item-time">11:02</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="150">
+								Добрый день. Tocha Online — удобный инструмент для общения с клиентами всего через одно
+								приложение. Чат легко подключить на сайт, а оператору не нужно учиться работать с чатом.
+								<span class="chat__item-time">11:03</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="200">
+								А я могу подключить несколько ассистентов?
+								<span class="chat__item-time">11:05</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="250">
+								Конечно! Вы можете подключить неограниченное количество ассистентов.
+								<span class="chat__item-time">11:05</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="300">
+								Могу ли я кастомизировать чат под свои нужды?
+								<span class="chat__item-time">11:06</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="350">
+								Да, вы можете настроить иконки, цвет, шрифт
+								<span class="chat__item-time">11:06</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="400">
+								Как установить чат на сайт?
+								<span class="chat__item-time">11:09</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="450">
+								Вам необходимо создать Telegram-бота, а мы подключим его на ваш сайт. Кстати, для вас
+								подарок — бесплатный пробный период на 1 месяц! За это время вы сможете оценить простоту
+								и удобство сервиса
+								<span class="chat__item-time">11:10</span>
+							</div>
+							<div class="chat__item" data-aos="fade-right" data-aos-delay="500">
+								Спасибо! Сейчас создам Telegram-бота
+								<span class="chat__item-time">11:11</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__tariff tariff-page">
+				<div class="tariff-page__container">
+					<div class="tariff-page__title page__title">
+						<h2>Тарифы</h2>
+					</div>
+					<div class="tariff-page__subtitle">
+						<h3>Стоимость зависит от трафика сайта</h3>
+					</div>
+					<div class="tariff-page__cards">
+						<div class="tariff-page__card card-tariff" data-aos="fade-down" data-aos-delay="200">
+							<div class="card-tariff__header">
+								<span>Бесплатно</span>
+							</div>
+							<div class="card-tariff__body">
+								<div class="card-tariff__title">
+									<span>Пробный период <br> на 1 месяц</span>
+								</div>
+								<div class="card-tariff__text">
+									<span>0₽/первый месяц</span>
+								</div>
+								<div class="card-tariff__button">
+									<a href="#" class="button">Подключить за 0₽</a>
+								</div>
+							</div>
+						</div>
+						<div class="tariff-page__card card-tariff" data-aos="fade-down" data-aos-delay="500">
+							<div class="card-tariff__header">
+								<span>Базовый</span>
+							</div>
+							<div class="card-tariff__body">
+								<div class="card-tariff__title">
+									<span>Менее 1000 <br> посещений в сутки</span>
+								</div>
+								<div class="card-tariff__text">
+									<span>200₽/месяц</span>
+								</div>
+								<div class="card-tariff__button">
+									<a href="#" class="button">Подключить за 200₽</a>
+								</div>
+							</div>
+						</div>
+						<div class="tariff-page__card card-tariff" data-aos="fade-down" data-aos-delay="700">
+							<div class="card-tariff__header">
+								<span>Премиум</span>
+							</div>
+							<div class="card-tariff__body">
+								<div class="card-tariff__title">
+									<span>Более 1000 <br>
+										посещений в сутки</span>
+								</div>
+								<div class="card-tariff__text">
+									<span>500₽/месяц</span>
+								</div>
+								<div class="card-tariff__button">
+									<a href="#" class="button">Подключить за 500₽</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tariff-page-slider tariff-page__slider">
+						<div class="tariff-page__swiper">
+							<div class="tariff-page__slide">
+								<div class="tariff-page__card card-tariff">
+									<div class="card-tariff__header">
+										<span>Бесплатно</span>
+									</div>
+									<div class="card-tariff__body">
+										<div class="card-tariff__title">
+											<span>Пробный период <br> на 1 месяц</span>
+										</div>
+										<div class="card-tariff__text">
+											<span>0₽/первый месяц</span>
+										</div>
+										<div class="card-tariff__button">
+											<a href="#" class="button">Подключить за 0₽</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tariff-page__slide">
+								<div class="tariff-page__card card-tariff">
+									<div class="card-tariff__header">
+										<span>Базовый</span>
+									</div>
+									<div class="card-tariff__body">
+										<div class="card-tariff__title">
+											<span>Менее 1000 <br> посещений в сутки</span>
+										</div>
+										<div class="card-tariff__text">
+											<span>200₽/месяц</span>
+										</div>
+										<div class="card-tariff__button">
+											<a href="#" class="button">Подключить за 200₽</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tariff-page__slide">
+								<div class="tariff-page__card card-tariff">
+									<div class="card-tariff__header">
+										<span>Премиум</span>
+									</div>
+									<div class="card-tariff__body">
+										<div class="card-tariff__title">
+											<span>Более 1000 <br>
+												посещений в сутки</span>
+										</div>
+										<div class="card-tariff__text">
+											<span>500₽/месяц</span>
+										</div>
+										<div class="card-tariff__button">
+											<a href="#" class="button">Подключить за 500₽</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tariff-page__pagin"></div>
+				</div>
+			</section>
+			<section class="page__connection connection-page">
+				<div class="connection-page__container">
+					<div class="connection-page__title page__title">
+						<h2>Всего 3 шага для подключения Telegram чата</h2>
+					</div>
+					<div class="connection-page__cards">
+						<div class="connection-page__card card-connection" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500" data-aos-delay="200">
+							<div class="card-connection__number">
+								<span>1</span>
+							</div>
+							<div class="card-connection__title">
+								<span>Telegram bot</span>
+							</div>
+							<div class="card-connection__text">
+								<span>Вы создаёте Telegram бота для вашего сайта</span>
+							</div>
+							<div class="card-connection__img">
+								<picture><source srcset="img/iPhoneX-1.webp" type="image/webp"><img src="img/iPhoneX-1.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="connection-page__card card-connection" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500" data-aos-delay="500">
+							<div class="card-connection__number">
+								<span>2</span>
+							</div>
+							<div class="card-connection__title">
+								<span>Подключение Tocha</span>
+							</div>
+							<div class="card-connection__text">
+								<span>Tocha подключает Telegram бота к вашиму сайту</span>
+							</div>
+							<div class="card-connection__img">
+								<picture><source srcset="img/iPhoneX-2.webp" type="image/webp"><img src="img/iPhoneX-2.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="connection-page__card card-connection" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500" data-aos-delay="700">
+							<div class="card-connection__number">
+								<span>3</span>
+							</div>
+							<div class="card-connection__title">
+								<span>Telegram-чат</span>
+							</div>
+							<div class="card-connection__text">
+								<span>Консультант отвечает на вопросы посетителей сайта</span>
+							</div>
+							<div class="card-connection__img">
+								<picture><source srcset="img/iPhoneX-3.webp" type="image/webp"><img src="img/iPhoneX-3.png" alt="img"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="connection-page-slider connection-page__slider">
+						<div class="connection-page__swiper">
+							<div class="connection-page__slide">
+								<div class="connection-page__card card-connection">
+									<div class="card-connection__number">
+										<span>1</span>
+									</div>
+									<div class="card-connection__title">
+										<span>Telegram bot</span>
+									</div>
+									<div class="card-connection__text">
+										<span>Вы создаёте Telegram бота для вашего сайта</span>
+									</div>
+									<div class="card-connection__img">
+										<picture><source srcset="img/iPhoneX-1.webp" type="image/webp"><img src="img/iPhoneX-1.png" alt="img"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="connection-page__slide">
+								<div class="connection-page__card card-connection">
+									<div class="card-connection__number">
+										<span>2</span>
+									</div>
+									<div class="card-connection__title">
+										<span>Подключение Tocha</span>
+									</div>
+									<div class="card-connection__text">
+										<span>Tocha подключает Telegram бота к вашиму сайту</span>
+									</div>
+									<div class="card-connection__img">
+										<picture><source srcset="img/iPhoneX-2.webp" type="image/webp"><img src="img/iPhoneX-2.png" alt="img"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="connection-page__slide">
+								<div class="connection-page__card card-connection">
+									<div class="card-connection__number">
+										<span>3</span>
+									</div>
+									<div class="card-connection__title">
+										<span>Telegram-чат</span>
+									</div>
+									<div class="card-connection__text">
+										<span>Консультант отвечает на вопросы посетителей сайта</span>
+									</div>
+									<div class="card-connection__img">
+										<picture><source srcset="img/iPhoneX-3.webp" type="image/webp"><img src="img/iPhoneX-3.png" alt="img"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="connection-page__pagin"></div>
+				</div>
+			</section>
+			<section class="page__comments comments-page">
+				<div class="comments-page__container">
+					<div class="comments-page__title page__title">
+						<h2>Отзывы клиентов</h2>
+					</div>
+					<div class="comments-page__slider comments-slider">
+						<div class="comments-page__swiper">
+							<div class="comments-page__slide comments-slide">
+								<div class="comments-slide__content">
+									<div class="comments-slide__title">
+										<span>Как же удобно!</span>
+									</div>
+									<div class="comments-slide__text">
+										<span>В рамках спецификации современных стандартов, базовые сценарии поведения
+											пользователей, которые представляют собой яркий пример
+											континентально-европейского типа политической культуры, будут преданы
+											социально-демократической анафеме.</span>
+									</div>
+								</div>
+								<div class="comments-slide__user user">
+									<div class="user__foto foto__image-ibg">
+										<picture><source srcset="img/user-photo-1.webp" type="image/webp"><img src="img/user-photo-1.jpg" alt="img"></picture>
+									</div>
+									<div class="user__info">
+										<span class="user__info-name">Анна Купер</span>
+										<span class="user__info-site">romashka.ru</span>
+									</div>
+								</div>
+							</div>
+							<div class="comments-page__slide comments-slide">
+								<div class="comments-slide__content">
+									<div class="comments-slide__title">
+										<span>Теперь мы идем в ногу со временем</span>
+									</div>
+									<div class="comments-slide__text">
+										<span>А ещё интерактивные прототипы превращены в посмешище, хотя само их
+											существование приносит несомненную пользу обществу. Банальные, но
+											неопровержимые выводы, а также тщательные исследования конкурентов формируют
+											сеть.</span>
+									</div>
+								</div>
+								<div class="comments-slide__user user">
+									<div class="user__foto foto__image-ibg">
+										<picture><source srcset="img/user-photo-2.webp" type="image/webp"><img src="img/user-photo-2.jpg" alt="img"></picture>
+									</div>
+									<div class="user__info">
+										<span class="user__info-name">Андрей Васильев</span>
+										<span class="user__info-site">samogon-ont.ru</span>
+									</div>
+								</div>
+							</div>
+							<div class="comments-page__slide comments-slide">
+								<div class="comments-slide__content">
+									<div class="comments-slide__title">
+										<span>Как же удобно!</span>
+									</div>
+									<div class="comments-slide__text">
+										<span>В рамках спецификации современных стандартов, базовые сценарии поведения
+											пользователей, которые представляют собой яркий пример
+											континентально-европейского типа политической культуры, будут преданы
+											социально-демократической анафеме.</span>
+									</div>
+								</div>
+								<div class="comments-slide__user user">
+									<div class="user__foto foto__image-ibg">
+										<picture><source srcset="img/user-photo-1.webp" type="image/webp"><img src="img/user-photo-1.jpg" alt="img"></picture>
+									</div>
+									<div class="user__info">
+										<span class="user__info-name">Анна Купер</span>
+										<span class="user__info-site">romashka.ru</span>
+									</div>
+								</div>
+							</div>
+							<div class="comments-page__slide comments-slide">
+								<div class="comments-slide__content">
+									<div class="comments-slide__title">
+										<span>Теперь мы идем в ногу со временем</span>
+									</div>
+									<div class="comments-slide__text">
+										<span>А ещё интерактивные прототипы превращены в посмешище, хотя само их
+											существование приносит несомненную пользу обществу. Банальные, но
+											неопровержимые выводы, а также тщательные исследования конкурентов формируют
+											сеть.</span>
+									</div>
+								</div>
+								<div class="comments-slide__user user">
+									<div class="user__foto foto__image-ibg">
+										<picture><source srcset="img/user-photo-2.webp" type="image/webp"><img src="img/user-photo-2.jpg" alt="img"></picture>
+									</div>
+									<div class="user__info">
+										<span class="user__info-name">Андрей Васильев</span>
+										<span class="user__info-site">samogon-ont.ru</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="comments-page__pagin">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__submit-email submit-email">
+				<div class="submit-email__container" data-aos="zoom-out-down" data-aos-easing="linear" data-aos-duration="1500">
+					<div class="submit-email__img">
+						<img src="img/connection.svg" alt="image">
+					</div>
+					<div class="submit-email__content">
+						<div class="submit-email__title">
+							<span>Подключите Telegram чат уже сегодня</span>
+						</div>
+						<form action="#" class="submit-email__form">
+							<input class="submit-email__inp input" autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Введите e-mail">
+							<button class="submit-email__btn button" type="submit">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__logo">
+						<picture><source srcset="img/logo_footer.webp" type="image/webp"><img src="img/logo_footer.png" alt="image"></picture>
+					</div>
+					<div class="footer__menu-wrap">
+						<nav class="footer__menu">
+							<div class="footer__menu-title">
+								<span>Telegram чат</span>
+							</div>
+							<ul class="footer__list-chat">
+								<li class="footer__item-chat">
+									<a href="#">О нас</a>
+								</li>
+								<li class="footer__item-chat">
+									<a href="#">Партнеры</a>
+								</li>
+								<li class="footer__item-chat">
+									<a href="#">Инструкция</a>
+								</li>
+								<li class="footer__item-chat">
+									<a href="#">Цены</a>
+								</li>
+								<li class="footer__item-chat">
+									<a href="#">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="footer__menu">
+							<div class="footer__menu-title">
+								<span>Поддержка</span>
+							</div>
+							<ul class="footer__list-support">
+								<li class="footer__item-support">
+									<a href="#">Центр поддержки</a>
+								</li>
+								<li class="footer__item-support">
+									<a href="#">Политика конфеденциальности</a>
+								</li>
+								<li class="footer__item-support">
+									<a href="#">Документы оферта</a>
+								</li>
+								<li class="footer__item-support">
+									<a href="#">Документы оферта</a>
+								</li>
+								<li class="footer__item-support">
+									<a href="#">Статус</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<span>© 2021 Tocha. Все права защищены</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popupLogin" class="login popup" aria-hidden="true">
+		<div class="login__wrapper popup-wrapper">
+			<div class="login__content popup-content">
+				<button data-close type="button" class="popup__close">
+					<img src="img/popup_close.svg" alt="popup_close">
+				</button>
+				<div class="popup__body">
+					<div class="popup__title">
+						<h1>Вход</h1>
+					</div>
+					<form action="#" method="post" class="popup__form">
+						<input autocomplete="off" type="tel" name="formTel" data-error="Ошибка" placeholder="Телефон" class="popup__input">
+						<div class="popup__inp">
+							<input autocomplete="off" type="password" name="formPass" data-error="Ошибка" placeholder="Пароль" class="popup__input">
+							<svg class="icon" width="24" height="24" fill="$mainColorText">
+								<use xlink:href="img/icons/icons.svg#svg-eye_close"></use>
+							</svg>
+						</div>
+						<a href="#"><span>Напомнить пароль</span></a>
+					</form>
+					<button class="popup__button button" type="button"><span>Войти</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popupReg" class="reg popup" aria-hidden="true">
+		<div class="reg__wrapper popup-wrapper">
+			<div class="reg__content popup-content">
+				<button data-close type="button" class="popup__close">
+					<img src="img/popup_close.svg" alt="popup_close">
+				</button>
+				<div class="popup__body">
+					<div class="popup__title">
+						<h1>Регистрация</h1>
+					</div>
+					<form action="#" method="post" class="popup__form">
+						<input autocomplete="off" type="tel" name="formTel" data-error="Ошибка" placeholder="Телефон" class="popup__input">
+						<input autocomplete="off" type="email" name="formMail" data-error="Ошибка" placeholder="Электронная почта" class="popup__input">
+						<div class="popup__inp">
+							<input autocomplete="off" type="password" name="formPass" data-error="Ошибка" placeholder="Пароль" class="popup__input">
+							<svg class="icon" width="24" height="24" fill="$mainColorText">
+								<use xlink:href="img/icons/icons.svg#svg-eye_close"></use>
+							</svg>
+						</div>
+						<div class="popup__inp">
+							<input autocomplete="off" type="password" name="formPass" data-error="Ошибка" placeholder="Повторите пароль" class="popup__input">
+							<svg class="icon" width="24" height="24" fill="$mainColorText">
+								<use xlink:href="img/icons/icons.svg#svg-eye_close"></use>
+							</svg>
+						</div>
+						<a href="#"><span>Напомнить пароль</span></a>
+					</form>
+					<div class="popup__btn login__btn">
+						<button class="popup__button button" type="button"><span>Войти</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220219214710"></script>
+</body>
+
+</html>
